@@ -7,6 +7,8 @@ public class Aircraft : Transport
         Console.WriteLine("Flying");
     }
 
+    public override int SomeVariable { get; set; }
+
     public override void Move()
     {
         Fly();

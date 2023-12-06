@@ -28,5 +28,5 @@ public class Class5 : Class4
 
 public class Class6 : Class5
 {
-    public override void Do();
+    //public override void Do();
 }

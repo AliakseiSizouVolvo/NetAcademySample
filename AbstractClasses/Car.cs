@@ -7,6 +7,8 @@ public class Car : Transport
         Console.WriteLine("Consume Fuel");
     }
 
+    public override int SomeVariable { get; set; }
+
     public override void Move()
     {
         ConsumeFuel();

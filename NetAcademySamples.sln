@@ -37,15 +37,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractClasses", "Abstract
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Interfaces", "Interfaces\Interfaces.csproj", "{E10177D0-B1BF-4C90-9B3C-48B8FE670957}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MethodOverridingAndHiding", "MethodOverridingAndHiding\MethodOverridingAndHiding.csproj", "{10EB481A-D7DD-4994-BFE4-9C25D3F18F34}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MethodOverridingAndHiding", "MethodOverridingAndHiding\MethodOverridingAndHiding.csproj", "{10EB481A-D7DD-4994-BFE4-9C25D3F18F34}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Structs", "Structs\Structs.csproj", "{8BE92017-C297-4469-97F6-39FF6FCA5A2A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Structs", "Structs\Structs.csproj", "{8BE92017-C297-4469-97F6-39FF6FCA5A2A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tuples", "Tuples\Tuples.csproj", "{44F1B915-D277-4B0A-9338-6593B8D9F6FB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tuples", "Tuples\Tuples.csproj", "{44F1B915-D277-4B0A-9338-6593B8D9F6FB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Records", "Records\Records.csproj", "{5F3DBA81-5FE4-4133-91D5-20EA7EC2F610}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Records", "Records\Records.csproj", "{5F3DBA81-5FE4-4133-91D5-20EA7EC2F610}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enums", "Enums\Enums.csproj", "{3BBEA59F-9181-41A3-93E7-26058BB9A1EA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Enums", "Enums\Enums.csproj", "{3BBEA59F-9181-41A3-93E7-26058BB9A1EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exceptions", "Exceptions\Exceptions.csproj", "{7F765994-38CF-404E-BB56-6718BFEA46A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generics", "Generics\Generics.csproj", "{8A645EF5-890B-44EA-B8DE-0248FBDDC06C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -141,6 +145,14 @@ Global
 		{3BBEA59F-9181-41A3-93E7-26058BB9A1EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3BBEA59F-9181-41A3-93E7-26058BB9A1EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3BBEA59F-9181-41A3-93E7-26058BB9A1EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F765994-38CF-404E-BB56-6718BFEA46A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F765994-38CF-404E-BB56-6718BFEA46A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F765994-38CF-404E-BB56-6718BFEA46A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F765994-38CF-404E-BB56-6718BFEA46A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A645EF5-890B-44EA-B8DE-0248FBDDC06C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A645EF5-890B-44EA-B8DE-0248FBDDC06C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A645EF5-890B-44EA-B8DE-0248FBDDC06C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A645EF5-890B-44EA-B8DE-0248FBDDC06C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
