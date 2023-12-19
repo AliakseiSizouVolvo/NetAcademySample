@@ -57,11 +57,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BasicInterfaces", "BasicInt
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Strings", "Strings\Strings.csproj", "{B9EB845E-DEB9-476B-BDF3-580B6B607A3F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringBuilder", "StringBuilder\StringBuilder.csproj", "{7862F26C-532D-4FFD-B24E-0E0872B0DA52}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StringBuilder", "StringBuilder\StringBuilder.csproj", "{7862F26C-532D-4FFD-B24E-0E0872B0DA52}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegularExpressions", "RegularExpressions\RegularExpressions.csproj", "{CFEA1E3B-44BA-4C7D-BC42-3E30144CB1B6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RegularExpressions", "RegularExpressions\RegularExpressions.csproj", "{CFEA1E3B-44BA-4C7D-BC42-3E30144CB1B6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DrivesDirectoriesFiles", "DrivesDirectoriesFiles\DrivesDirectoriesFiles.csproj", "{11F68D92-AC93-4A89-BEEC-067AFCA5609B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DrivesDirectoriesFiles", "DrivesDirectoriesFiles\DrivesDirectoriesFiles.csproj", "{11F68D92-AC93-4A89-BEEC-067AFCA5609B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AssemblyResources", "AssemblyResources\AssemblyResources.csproj", "{28DE2545-F9FD-4116-B70D-08906EB0B874}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -189,6 +191,10 @@ Global
 		{11F68D92-AC93-4A89-BEEC-067AFCA5609B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{11F68D92-AC93-4A89-BEEC-067AFCA5609B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{11F68D92-AC93-4A89-BEEC-067AFCA5609B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28DE2545-F9FD-4116-B70D-08906EB0B874}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28DE2545-F9FD-4116-B70D-08906EB0B874}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28DE2545-F9FD-4116-B70D-08906EB0B874}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28DE2545-F9FD-4116-B70D-08906EB0B874}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
