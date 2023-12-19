@@ -1,4 +1,5 @@
-﻿using System.Text.Json;
+﻿using System.Reflection;
+using System.Text.Json;
 
 namespace Attributes;
 
@@ -12,6 +13,7 @@ internal class Program
             Name = "Jhon",
             Surname = "Smith",
             Age = 25,
+            Email = "Jhon.Smith@acme.org",
             Role = "Senior Developer"
         };
 
@@ -26,6 +28,12 @@ internal class Program
 [AttributeUsage(AttributeTargets.Property)]
 public class SensitiveDataAttribute: Attribute
 {
+    public object DefaultValue { get; set; }
+    //public SensitiveDataAttribute(object defaultValue = null)
+    //{
+    //    DefaultValue = defaultValue;
+    //}
+
     public static void PurgeSensitiveData(object obj)
     {
         var type = obj.GetType();
@@ -33,17 +41,18 @@ public class SensitiveDataAttribute: Attribute
         foreach (var property in properties) 
         {
             var hasSensitiveDataAttribute =
-                    property.CustomAttributes
-                            .Any(x => x.AttributeType == typeof(SensitiveDataAttribute));
+                    property.GetCustomAttributes<SensitiveDataAttribute>()
+                            .SingleOrDefault();
 
-            if (!hasSensitiveDataAttribute)
+            if (hasSensitiveDataAttribute == null)
             {
                 continue;
             }
 
-            var defaultValue = property.PropertyType.IsClass
-                                    ? null
-                                    : Activator.CreateInstance(property.PropertyType);
+            object? defaultValue = hasSensitiveDataAttribute.DefaultValue 
+                                    ?? (property.PropertyType.IsClass
+                                        ? null
+                                        : Activator.CreateInstance(property.PropertyType));
 
             property.SetValue(obj, defaultValue);
         }
@@ -59,6 +68,9 @@ public class User
 
     [SensitiveData]
     public required string Surname { get; set; }
+
+    [SensitiveData(DefaultValue = "hr@acme.org")]
+    public required string Email { get; set; }
 
     [SensitiveData]
     public int Age { get; set; }
