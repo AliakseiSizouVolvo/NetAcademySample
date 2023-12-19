@@ -63,13 +63,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RegularExpressions", "Regul
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DrivesDirectoriesFiles", "DrivesDirectoriesFiles\DrivesDirectoriesFiles.csproj", "{11F68D92-AC93-4A89-BEEC-067AFCA5609B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AssemblyResources", "AssemblyResources\AssemblyResources.csproj", "{28DE2545-F9FD-4116-B70D-08906EB0B874}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AssemblyResources", "AssemblyResources\AssemblyResources.csproj", "{28DE2545-F9FD-4116-B70D-08906EB0B874}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileSystemAndStreams", "FileSystemAndStreams\FileSystemAndStreams.csproj", "{F89756A5-D125-480B-9F5E-1BD0EF9DD55E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FileSystemAndStreams", "FileSystemAndStreams\FileSystemAndStreams.csproj", "{F89756A5-D125-480B-9F5E-1BD0EF9DD55E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReflectionAndTypeObjects", "ReflectionAndTypeObjects\ReflectionAndTypeObjects.csproj", "{6F6CD1D6-48AA-4A69-9151-229097CA6508}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReflectionAndTypeObjects", "ReflectionAndTypeObjects\ReflectionAndTypeObjects.csproj", "{6F6CD1D6-48AA-4A69-9151-229097CA6508}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReflectionAndTypeObjects.AssemblyForLoad", "ReflectionAndTypeObjects.AssemblyForLoad\ReflectionAndTypeObjects.AssemblyForLoad.csproj", "{6178CF8C-A14A-42C7-B97E-25E5EEF7BBED}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReflectionAndTypeObjects.AssemblyForLoad", "ReflectionAndTypeObjects.AssemblyForLoad\ReflectionAndTypeObjects.AssemblyForLoad.csproj", "{6178CF8C-A14A-42C7-B97E-25E5EEF7BBED}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JsonSerialization", "JsonSerialization\JsonSerialization.csproj", "{53400E5A-BD02-4C75-9E30-436F39014D5A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Attributes", "Attributes\Attributes.csproj", "{952BB970-91C1-40F5-A64F-FF52AE2E9F42}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -213,6 +217,14 @@ Global
 		{6178CF8C-A14A-42C7-B97E-25E5EEF7BBED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6178CF8C-A14A-42C7-B97E-25E5EEF7BBED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6178CF8C-A14A-42C7-B97E-25E5EEF7BBED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53400E5A-BD02-4C75-9E30-436F39014D5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53400E5A-BD02-4C75-9E30-436F39014D5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53400E5A-BD02-4C75-9E30-436F39014D5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53400E5A-BD02-4C75-9E30-436F39014D5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{952BB970-91C1-40F5-A64F-FF52AE2E9F42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{952BB970-91C1-40F5-A64F-FF52AE2E9F42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{952BB970-91C1-40F5-A64F-FF52AE2E9F42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{952BB970-91C1-40F5-A64F-FF52AE2E9F42}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
