@@ -18,6 +18,7 @@ namespace FileSystemAndStreams
 
             Console.WriteLine($"Working directory: {System.IO.Directory.GetCurrentDirectory()}");
 
+            // Relative paths like below are relative to working directory (above)
             var directoryPath = @".\NetAcademySamples";
 
             var directoryInfo = new DirectoryInfo(directoryPath);
