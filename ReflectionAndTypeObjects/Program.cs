@@ -1,4 +1,5 @@
 ﻿using System.Reflection;
+using System.Text;
 
 namespace ReflectionAndTypeObjects;
 
@@ -20,7 +21,7 @@ internal class Program
 
         // Access instance methods on an unknown type
 
-        object subject1 = new Foo(); // notice, var has type 'object' - we can't access antying without cast
+        object subject1 = Activator.CreateInstance(type1);
 
         var type2 = subject1.GetType(); // same Type object as above
         Console.WriteLine(type2.FullName);
