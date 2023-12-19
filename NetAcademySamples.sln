@@ -75,6 +75,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JsonSerialization", "JsonSe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Attributes", "Attributes\Attributes.csproj", "{952BB970-91C1-40F5-A64F-FF52AE2E9F42}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GarbageCollectorAndFinalization", "GarbageCollectorAndFinalization\GarbageCollectorAndFinalization.csproj", "{99203BCA-0DB0-4065-8BD0-9C742E330354}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Delegates", "Delegates\Delegates.csproj", "{8B46EEE3-5BEB-46DB-ADAE-5F1C2865ABC9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -225,6 +229,14 @@ Global
 		{952BB970-91C1-40F5-A64F-FF52AE2E9F42}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{952BB970-91C1-40F5-A64F-FF52AE2E9F42}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{952BB970-91C1-40F5-A64F-FF52AE2E9F42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99203BCA-0DB0-4065-8BD0-9C742E330354}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99203BCA-0DB0-4065-8BD0-9C742E330354}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99203BCA-0DB0-4065-8BD0-9C742E330354}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99203BCA-0DB0-4065-8BD0-9C742E330354}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B46EEE3-5BEB-46DB-ADAE-5F1C2865ABC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B46EEE3-5BEB-46DB-ADAE-5F1C2865ABC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B46EEE3-5BEB-46DB-ADAE-5F1C2865ABC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B46EEE3-5BEB-46DB-ADAE-5F1C2865ABC9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
