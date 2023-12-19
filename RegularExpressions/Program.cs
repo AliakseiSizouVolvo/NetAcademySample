@@ -6,6 +6,8 @@ namespace RegularExpressions
     {
         static void Main(string[] args)
         {
+            // Visit https://regex101.com/ for a great regex building / testing experiments
+
             var s = "Hello, World! Some more words there. Hello and hello again";
             var regex = new Regex(@"he(\w*)");
             var regex2 = new Regex(@"(\w*)");
@@ -56,6 +58,7 @@ namespace RegularExpressions
 
             //////////////////////////////////////////////////////////////////////////////////////
 
+            // 31\12\2020
             var dateFormat1 = new Regex(@"\d{1,2}\\\d{1,2}\\\d{4}");
 
             var text = @"Please be informed, that the wedding of Samuel and Mary will be celebrated on 14\8\2024 at the Hampton Mannor.";
