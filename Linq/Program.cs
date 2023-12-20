@@ -60,6 +60,32 @@
                 Console.WriteLine(r);
             }
 
+            var employeesPerRoleDict = employees
+                    .GroupBy(x => x.role)
+                    .ToDictionary(
+                        x => x.Key,
+                        x => x.ToArray()
+                    );
+
+            foreach (var role in employeesPerRoleDict.Keys)
+            {
+                var employeesForCurrentRole = employeesPerRoleDict[role];
+                Console.WriteLine($"In role {role}:");
+                foreach (var empl in employeesForCurrentRole)
+                {
+                    Console.WriteLine(empl.name);
+                }
+            }
+
+            // OR 
+
+            var roleNamePairs = 
+                employeesPerRoleDict
+                    .SelectMany(keyValuePair => keyValuePair.Value.Select(empl => (keyValuePair.Key, empl.name)))
+                    .ToList();
+
+            // foreach method is only available on List<T>
+            roleNamePairs.ForEach(x => Console.WriteLine(x));
         }
     }
 
