@@ -73,11 +73,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReflectionAndTypeObjects.As
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JsonSerialization", "JsonSerialization\JsonSerialization.csproj", "{53400E5A-BD02-4C75-9E30-436F39014D5A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Attributes", "Attributes\Attributes.csproj", "{952BB970-91C1-40F5-A64F-FF52AE2E9F42}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Attributes", "Attributes\Attributes.csproj", "{952BB970-91C1-40F5-A64F-FF52AE2E9F42}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GarbageCollectorAndFinalization", "GarbageCollectorAndFinalization\GarbageCollectorAndFinalization.csproj", "{99203BCA-0DB0-4065-8BD0-9C742E330354}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GarbageCollectorAndFinalization", "GarbageCollectorAndFinalization\GarbageCollectorAndFinalization.csproj", "{99203BCA-0DB0-4065-8BD0-9C742E330354}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Delegates", "Delegates\Delegates.csproj", "{8B46EEE3-5BEB-46DB-ADAE-5F1C2865ABC9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Delegates", "Delegates\Delegates.csproj", "{8B46EEE3-5BEB-46DB-ADAE-5F1C2865ABC9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Linq", "Linq\Linq.csproj", "{4E79984B-A8C7-4ED7-BC28-47648A23A810}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -237,6 +239,10 @@ Global
 		{8B46EEE3-5BEB-46DB-ADAE-5F1C2865ABC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8B46EEE3-5BEB-46DB-ADAE-5F1C2865ABC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8B46EEE3-5BEB-46DB-ADAE-5F1C2865ABC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E79984B-A8C7-4ED7-BC28-47648A23A810}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E79984B-A8C7-4ED7-BC28-47648A23A810}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E79984B-A8C7-4ED7-BC28-47648A23A810}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E79984B-A8C7-4ED7-BC28-47648A23A810}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
