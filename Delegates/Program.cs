@@ -35,6 +35,13 @@ namespace Delegates
             numbersDivisibleBy4 = integers.Where((val) => val % 4 == 0).ToArray();
 
             Console.WriteLine(JsonSerializer.Serialize(numbersDivisibleBy4));
+
+            // capturing a variable reference (may prevent garbage collection of value)
+            string a = "before";
+            Action<int> act = (i) => Console.WriteLine($"a is :{a}; i is :{i}");
+            a = "after";
+
+            act(10); // oops, we get "After!"
         }
 
         public static bool IsSquare(int val) => Math.Sqrt(val) % 1 == 0;
