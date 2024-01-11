@@ -18,7 +18,7 @@
                 allowCancel: true,
                 new MenuOption<Action>("Eat it", () => Console.WriteLine($"You eat the {fruitChoice}")),
                 new MenuOption<Action>("Gift it", () => Console.WriteLine($"You gift the {fruitChoice}")),
-                new MenuOption<Action>("Sleep", Dance));
+                new MenuOption<Action>("Sleep", Sleep));
 
             if (actionChoice != null)
             {
@@ -38,7 +38,7 @@
             //Console.WriteLine($"You entered {dec}");
         }
 
-        public static void Dance()
+        public static void Sleep()
         {
             Console.WriteLine("You put it away and have some sleep.");
         }
