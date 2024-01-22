@@ -1,4 +1,4 @@
-﻿namespace PartialClasses;
+﻿namespace PartialClasses.Logic;
 
 public partial class TestPartialClass
 {

@@ -1,6 +1,4 @@
-﻿using Classes;
-
-namespace Casses
+﻿namespace Classes
 {
     internal class Program
     {

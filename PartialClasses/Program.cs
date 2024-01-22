@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            var partialClassInstance = new TestPartialClass()
+            var partialClassInstance = new Logic.TestPartialClass()
             {
                 Property1 = 1,
                 Property2 = 2,
